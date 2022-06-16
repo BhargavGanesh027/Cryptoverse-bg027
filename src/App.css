@@ -26,6 +26,12 @@ a:hover{
   bottom: 18px;
 }
 
+@media screen and (max-width: 600px) {
+  .react{
+    display: none;
+  }
+}
+
 .app{
   display: flex;
   overflow: hidden;
